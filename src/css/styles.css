@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ho:hover {
+  text-shadow: none !important;
+  box-sizing: border-box !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  z-index: 2;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1) !important;
+  -ms-transform: scale(1.1) !important;
+}
+
+
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1.5s ease;
+}
+
+.inner:hover img{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.bord{
+    border-radius: 15px;
+    border: 1px solid #000;
+}
+
+.bordy{
+    border-radius: 10px !important;
+    border: 1px solid #000 !important;
+    box-shadow: 0 5px 5px #16191b !important;
+}
+
+.logo{
+    font-family: 'Poppins', sans-serif;
+    border-radius: 4px !important;
+    border: 1px solid rgb(17, 17, 17) !important;
+    box-shadow: 0 4px 4px #16191b !important;
+}
+
+.clock{
+    height: 35px;
+    padding-left:10px ;
+    padding-right:10px ;
+    background: #171b3c;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(17, 17, 17);
+    box-shadow: 0 5px 5px #16191b;
+}
+
+.but{
+    color: white;
+    background: #171b3c;
+    border-radius: 10px !important;
+    border: 1px solid #000 !important;
+    box-shadow: 0 5px 5px #16191b !important;
+}
+
+.inner img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.skills img {
+  height: 46px;
+
+
+}
+
+.social img {
+  height: 36px;
+}
+
+
+@keyframes animate-positive{
+    0%{
+        width: 0;
+    }
+
+}

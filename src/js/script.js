@@ -3,6 +3,10 @@ const email_id = document.getElementById('email_id');
 const message = document.getElementById('message');
 const sendButton = document.getElementById('sendButton');
 
+
+
+// clock function
+
 function displayTime(){
     var dateTime = new Date()
     var hrs = dateTime.getHours();
@@ -16,7 +20,7 @@ function displayTime(){
 }
 setInterval(displayTime, 10);
 
-// check kolom terisi
+// check kolom terisi == email send function
 function SendMail(){
     if(
         document.getElementById('fullName').value != ''&&
@@ -46,20 +50,27 @@ function SendMail(){
 
 }
 
-sendButton.classList.add('d-none');
+// hide send button
 
+sendButton.classList.add('d-none');
 function hideSubmit(){
     if(
         fullName.value != '' &&
         email_id.value != '' &&
         message.value != '' 
     ) {
-        sendButton.classList.remove('d-none')
+        sendButton.classList.add('animate__animated', 'animate__fadeIn');
+        sendButton.classList.remove('d-none');
+    } else {
+        sendButton.classList.add('d-none');
     }
 }
+
+// clear function
 
 function clear(){
 document.getElementById('fullName').value = '';
 document.getElementById('email_id').value = '';
 document.getElementById('message').value = '';
 }
+

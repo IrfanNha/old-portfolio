@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="src/css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>Irfan </title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
@@ -16,7 +17,7 @@
     <!--Navbar Awal-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand shadow ho p-2 px-2 logo border-black" href="#" role="button"><span class="text-light h4">Irfan|</span><span class="text-danger h4"><b>NA.</b></span></a>
+        <a class="navbar-brand shadow ho p-1 px-2 logo border-black" href="#" role="button"><span class="text-light h5">Irfan|</span><span class="text-danger h5"><b>NA.</b></span></a>
         <button class="navbar-toggler bordy" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -52,11 +53,11 @@
 
 
       <!--Layout 1 Awal BAGIAN SAPAAN -->
-      <div class="container-fluid bg-dark text-light mb-5" style="height: 100% ;">
-        <div class="container-fluid bg-dark text-light mt-5" style="height: 100%;">
-          <div class="row text-center mt-5">
+      <section  data-aos="fade">
+        <div class="container-fluid text-light mt-5" style="height: 100%;">
+          <div class="row text-center my-5">
             <div class="col-md-6 mb-3 text-center">
-              <img class="shadow p-2 mb-5 bg-dark rounded-circle" src="assets/img/profile.jpeg" alt="profile" height="200px" loading="eager">   
+              <img class="shadow p-2 mb-5 bg-dark rounded-circle" src="assets/img/profile.jpeg" alt="profile" height="200px">   
             </div>
             <div class="col-md-6 mt-3 text-md-start">
               <h1 class="text-light  "><b>Hi I'm Irfan_</b> </h1>
@@ -66,301 +67,319 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      
       <br>
-
-      </div>
     
       <!--Layout 1 akhir-->
 
       <!-- Layout 2 SKILLS -->
-      <div class="bg-black my-5 py-5" id="skills">
-      <div class="container mb-4 py-md-5">
-        <h4 class="display-6 text-light text-center text-md-start">My Skills</h4>
-        <p class="text-light mb-4 text-center text-md-start">i have experience with these technologies</p>
-        <div class=" d-flex flex-column justify-content-center text-center">
+      <section id="skills">
+        <div class="bg-black my-5 py-5" data-aos="fade">
+        <div class="container mb-4 py-md-5">
+          <h4 class="display-6 text-light text-center text-md-start">My Skills</h4>
+          <p class="text-light mb-4 text-center text-md-start">i have experience with these technologies</p>
+          <div class=" d-flex flex-column justify-content-center text-center">
 
-        
-        <div class="row row-cols-3 row-cols-md-6 g-3 skills">
-          <div class="col">
-            <img src="assets/img/logo/css.png" alt="" loading="eager">
-            <p class="text-light fs-6">css</p>
-          </div>
-          <div class="col">
-            <img src="assets/img/logo/bs.png" alt="" loading="eager">
-            <p class="text-light">bootstrap</p>
-          </div>
-          <div class="col">
-            <img src="assets/img/logo/js.png" alt="" loading="eager">
-            <p class="text-light d-none d-md-block">javascript</p>
-            <p class="text-light d-block d-md-none">js</p>
-          </div>
-          <div class="col">
-            <img src="assets/img/logo/vue.png" alt="" loading="eager">
-            <p class="text-light">vuejs</p>
-          </div>
-          <div class="col">
-            <img src="assets/img/logo/php.png" alt="" loading="eager">
-            <p class="text-light text-center ">php</p>
-          </div>
-          <div class="col">
-            <img src="assets/img/logo/mysql.png" alt="" loading="eager">
-            <p class="text-light">mysql</p>
-          </div>
-          <div class="col">
-            <img src="assets/svg/mariadb.svg" alt="" loading="eager">
-            <p class="text-light">mariaDB</p>
-          </div>
-          <div class="col">
-            <img src="assets/img/logo/py.png" alt="" loading="eager">
-            <p class="text-light">python</p>
-          </div>
-          <div class="col">
-            <img src="assets/img/logo/cpp.png" alt="" loading="eager">
-            <p class="text-light">c++</p>
-          </div>
-          <div class="col">
-            <img src="assets/svg/github.svg" alt="" loading="eager" style="height: 48px !important;">
-            <p class="text-light">github</p>
-          </div>
-          <div class="col">
-            <img src="assets/svg/java.svg" alt="" loading="eager">
-            <p class="text-light">java</p>
-          </div>
-          <div class="col">
-            <img src="assets/svg/git.svg" alt="" loading="eager">
-            <p class="text-light">git</p>
-          </div>
           
+          <div class="row row-cols-3 row-cols-md-6 g-3 skills">
+            <div class="col">
+              <img src="assets/img/logo/css.png" alt="" loading="eager">
+              <p class="text-light fs-6">css</p>
+            </div>
+            <div class="col">
+              <img src="assets/img/logo/bs.png" alt="" loading="eager">
+              <p class="text-light">bootstrap</p>
+            </div>
+            <div class="col">
+              <img src="assets/img/logo/js.png" alt="" loading="eager">
+              <p class="text-light d-none d-md-block">javascript</p>
+              <p class="text-light d-block d-md-none">js</p>
+            </div>
+            <div class="col">
+              <img src="assets/img/logo/vue.png" alt="" loading="eager">
+              <p class="text-light">vuejs</p>
+            </div>
+            <div class="col">
+              <img src="assets/img/logo/php.png" alt="" loading="eager">
+              <p class="text-light text-center ">php</p>
+            </div>
+            <div class="col">
+              <img src="assets/img/logo/mysql.png" alt="" loading="eager">
+              <p class="text-light">mysql</p>
+            </div>
+            <div class="col">
+              <img src="assets/svg/mariadb.svg" alt="">
+              <p class="text-light">mariaDB</p>
+            </div>
+            <div class="col">
+              <img src="assets/img/logo/py.png" alt="" loading="eager">
+              <p class="text-light">python</p>
+            </div>
+            <div class="col">
+              <img src="assets/img/logo/cpp.png" alt="" loading="eager">
+              <p class="text-light">c++</p>
+            </div>
+            <div class="col">
+              <img src="assets/svg/github.svg" alt=""  style="height: 48px !important;">
+              <p class="text-light">github</p>
+            </div>
+            <div class="col">
+              <img src="assets/svg/java.svg" alt="">
+              <p class="text-light">java</p>
+            </div>
+            <div class="col">
+              <img src="assets/svg/git.svg" alt="">
+              <p class="text-light">git</p>
+            </div>
+            
+          </div>
+        </div>
         </div>
       </div>
-      </div>
-    </div>
+      </section>
+      
       <!-- Layout 2 SKILLS -->
 
       
       
       <!--Layout 3 awal BAGIAN GALLERY-->
-      <div class="container my-5 " id="gallery">
-      <h4 class="display-6 text-light text-center text-md-start">Gallery</h4>
-      <p class="text-light mb-4 text-center text-md-start">my photography</p>
-      <div class="row row-cols-1 row-cols-md-3 g-3">
-        <div class="col" >
-          <div class="card h-100 text-bg-dark logo mb-2 ">
-            <div class="inner">
-              <img src="/assets/img/gallery/gallery-2.webp" class="card-img-top" alt="...">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Flowers and Mountain</h5>
-              <hr>
-              <p class="card-text">This photo was taken in Sarangan, Madiun, East Java</p>
-            </div>
+      <section id="gallery">
+        <div class="container my-5 " >
+          <div data-aos="fade">
+            <h4 class="display-6 text-light text-center text-md-start">Gallery</h4>
+            <p class="text-light mb-4 text-center text-md-start">my photography</p>
           </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 text-bg-dark logo mb-2 ">
-            <div class="inner">
-              <img src="/assets/img/gallery/gallery-3.webp" class="card-img-top" alt="...">
+          
+          <div class="row row-cols-1 row-cols-md-3 g-3">
+            <div class="col"  data-aos="fade-up">
+              <div class="card h-100 text-bg-dark logo mb-2 ">
+                <div class="inner">
+                  <img src="/assets/img/gallery/gallery-2.webp" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Flowers and Mountain</h5>
+                  <hr>
+                  <p class="card-text">This photo was taken in Sarangan, Madiun, East Java</p>
+                </div>
+              </div>
             </div>
-            <div class="card-body">
-              <h5 class="card-title">Beach Gate</h5>
-              <hr>
-              <p class="card-text">This photo was taken in Pantai Cemara Yogyakarta </p>
+            <div class="col" data-aos="fade-up">
+              <div class="card h-100 text-bg-dark logo mb-2 ">
+                <div class="inner">
+                  <img src="/assets/img/gallery/gallery-3.webp" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Beach Gate</h5>
+                  <hr>
+                  <p class="card-text">This photo was taken in Pantai Cemara Yogyakarta </p>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 text-bg-dark logo mb-2 ">
-            <div class="inner">
-              <img src="/assets/img/gallery/gallery-1.webp" class="card-img-top" alt="..." >
+            <div class="col" data-aos="fade-up">
+              <div class="card h-100 text-bg-dark logo mb-2 ">
+                <div class="inner">
+                  <img src="/assets/img/gallery/gallery-1.webp" class="card-img-top" alt="..." >
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Pine Woods</h5>
+                  <hr>
+                  <p class="card-text">This photo was taken in Pantai Cemara Yogyakarta</p>
+                </div>
+              </div>
             </div>
-            <div class="card-body">
-              <h5 class="card-title">Pine Woods</h5>
-              <hr>
-              <p class="card-text">This photo was taken in Pantai Cemara Yogyakarta</p>
-            </div>
-          </div>
-        </div>
 
-        <div class="col">
-          <div class="card h-100 text-bg-dark logo mb-2 ">
-            <div class="inner">
-              <img src="/assets/img/gallery/gallery-4.webp" class="card-img-top" alt="..." >
+            <div class="col" data-aos="fade-up">
+              <div class="card h-100 text-bg-dark logo mb-2 ">
+                <div class="inner">
+                  <img src="/assets/img/gallery/gallery-4.webp" class="card-img-top" alt="..." >
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Wall art CGV</h5>
+                  <hr>
+                  <p class="card-text">This photo was taken in cgv madiun plaza</p>
+                </div>
+              </div>
             </div>
-            <div class="card-body">
-              <h5 class="card-title">Wall art CGV</h5>
-              <hr>
-              <p class="card-text">This photo was taken in cgv madiun plaza</p>
-            </div>
-          </div>
-        </div>
 
-        <div class="col">
-          <div class="card h-100 text-bg-dark logo mb-2 ">
-            <div class="inner">
-              <img src="/assets/img/gallery/gallery-5.webp" class="card-img-top" alt="..." loading="lazy">
+            <div class="col" data-aos="fade-up">
+              <div class="card h-100 text-bg-dark logo mb-2 ">
+                <div class="inner">
+                  <img src="/assets/img/gallery/gallery-5.webp" class="card-img-top" alt="..." loading="lazy">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Flower in pot</h5>
+                  <hr>
+                  <p class="card-text">this photo was taken in backyard </p>
+                </div>
+              </div>
             </div>
-            <div class="card-body">
-              <h5 class="card-title">Flower in pot</h5>
-              <hr>
-              <p class="card-text">I forget :) </p>
-            </div>
-          </div>
-        </div>
 
-        <div class="col">
-          <div class="card h-100 text-bg-dark logo mb-2 ">
-            <div class="inner">
-              <img src="/assets/img/gallery/gallery-6.webp" class="card-img-top" alt="..." loading="lazy">
+            <div class="col" data-aos="fade-up">
+              <div class="card h-100 text-bg-dark logo mb-2 ">
+                <div class="inner">
+                  <img src="/assets/img/gallery/gallery-6.webp" class="card-img-top" alt="..." loading="lazy">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Corn Field</h5>
+                  <hr>
+                  <p class="card-text">this photo was taken in Semarang Central Java</p>
+                </div>
+              </div>
             </div>
-            <div class="card-body">
-              <h5 class="card-title">Corn Field</h5>
-              <hr>
-              <p class="card-text">Beatiful hometown</p>
+            
+            <div class="col" data-aos="fade-up">
+              <div class="card h-100 text-bg-dark logo mb-2 ">
+                <div class="inner">
+                  <img src="/assets/img/gallery/gallery-7.webp" class="card-img-top" alt="..." loading="lazy">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Heha ocean view</h5>
+                  <hr>
+                  <p class="card-text">this photo was taken in heha ocean view Yogyakarta</p>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        
-        <div class="col">
-          <div class="card h-100 text-bg-dark logo mb-2 ">
-            <div class="inner">
-              <img src="/assets/img/gallery/gallery-7.webp" class="card-img-top" alt="..." loading="lazy">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Heha ocean view</h5>
-              <hr>
-              <p class="card-text">this photo was taken in heha ocean view Yogyakarta</p>
-            </div>
-          </div>
-        </div>
 
-      </div>
-    </div>
+          </div>
+        </div>
+      </section>
+      
 
 
       <!--Layout 3 akhir-->
 
     <!--Layout 4 awal BAGIAN PROJECT-->
+    <section id="project">
+      <div class="container my-5" >
+        <div data-aos="fade">
+          <h4 class="display-6 text-light text-center text-md-start">Projects</h4>
+          <p class="text-light mb-4 text-center text-md-start">my projects</p>
+        </div>
 
-    <div class="container my-5" id="project">
-    <h4 class="display-6 text-light text-center text-md-start">Projects</h4>
-    <p class="text-light mb-4 text-center text-md-start">my projects</p>
-    <div class="row row-cols-1 row-cols-md-3 g-3">
+        <div class="row row-cols-1 row-cols-md-3 g-3">
 
-      <div class="col">
-        <div class="card h-100 text-bg-dark logo mb-2">
-          <div class="inner">
-            <img src="assets/img/project/project-dt.png" class="card-img-top" alt="...">
+          <div class="col" data-aos="fade-up">
+            <div class="card h-100 text-bg-dark logo mb-2">
+              <div class="inner">
+                <img src="assets/img/project/project-dt.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Dumb tank</h5>
+                <hr>
+                <p class="card-text">made with max2d</p>
+                <a href="http://drive.google.com/file/d/1sdHiH5sax_YZs3IToQHpxYxPiwpS6BKL/view" class="btn btn-primary but" role="button">Download</a>
+              </div>
+            </div>
           </div>
-          <div class="card-body">
-            <h5 class="card-title">Dumb tank</h5>
-            <hr>
-            <p class="card-text">made with max2d</p>
-            <a href="http://drive.google.com/file/d/1sdHiH5sax_YZs3IToQHpxYxPiwpS6BKL/view" class="btn btn-primary but" role="button">Download</a>
+          <div class="col" data-aos="fade-up">
+            <div class="card h-100 text-bg-dark logo mb-2">
+              <div class="inner">
+                <img src="assets/img/project/project-lp.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Landing Page</h5>
+                <hr>
+                <p class="card-text">Landing page ukm (commercial pages) made using bootstrap 5</p>
+                <a rel="noreferrer" target="_blank" href="https://ukm-handycraft.netlify.app/" class="btn btn-primary but" role="button">Take me!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col" data-aos="fade-up">
+            <div class="card h-100 text-bg-dark logo mb-2">
+              <div class="inner">
+                <img src="assets/img/project/project-fk.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Fear Knight</h5>
+                <hr>
+                <p class="card-text">made with max2d</p>
+                <a href="https://drive.google.com/file/d/1VON0RwvynsDuAeorScl3Ipdj4FAANthE/view?usp=sharing" class="btn btn-primary but" role="button">Download</a>
+              </div>
+            </div>
+          </div>
+          <div class="col" data-aos="fade-up">
+            <div class="card h-100 text-bg-dark logo mb-2">
+              <div class="inner">
+                <img src="assets/img/project/project-mv.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Meguventure</h5>
+                <hr>
+                <p class="card-text">Simple Pc game, made with construct 2</p>
+                <a href="https://drive.google.com/file/d/1qgc-IMZMCkQQOEDkVsWzUU7SpAQvqZZc/view?usp=sharing" class="btn btn-primary but" role="button">Download</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col" data-aos="fade-up">
+            <div class="card h-100 text-bg-dark logo mb-2">
+              <div class="inner">
+                <img src="assets/img/project/project-add.jpg" class="card-img-top" alt="..."">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Minecraft Addon</h5>
+                <hr>
+                <p class="card-text">Simple Minecraft items addon</p>
+                <a href="https://github.com/FinncchUnion/addon_advance_gear" class="btn btn-primary but" role="button">Download</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col" data-aos="fade-up">
+            <div class="card h-100 text-bg-dark logo shadow mb-2">
+              <div class="card-body align-items-center">
+                <h5 class="card-title">See More!</h5>
+                <p class="card-text">See more my project</p>
+                <a href="https://github.com/FinncchUnion/" class="btn btn-primary but" role="button">See More</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card h-100 text-bg-dark logo mb-2">
-          <div class="inner">
-            <img src="assets/img/project/project-lp.png" class="card-img-top" alt="...">
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Landing Page</h5>
-            <hr>
-            <p class="card-text">Landing page ukm (commercial pages) made using bootstrap 5</p>
-            <a rel="noreferrer" target="_blank" href="https://ukm-handycraft.netlify.app/" class="btn btn-primary but" role="button">Take me!</a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100 text-bg-dark logo mb-2">
-          <div class="inner">
-            <img src="assets/img/project/project-fk.jpg" class="card-img-top" alt="...">
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Fear Knight</h5>
-            <hr>
-            <p class="card-text">made with max2d</p>
-            <a href="https://drive.google.com/file/d/1VON0RwvynsDuAeorScl3Ipdj4FAANthE/view?usp=sharing" class="btn btn-primary but" role="button">Download</a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100 text-bg-dark logo mb-2">
-          <div class="inner">
-            <img src="assets/img/project/project-mv.jpg" class="card-img-top" alt="...">
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Meguventure</h5>
-            <hr>
-            <p class="card-text">Simple Pc game, made with construct 2</p>
-            <a href="https://drive.google.com/file/d/1qgc-IMZMCkQQOEDkVsWzUU7SpAQvqZZc/view?usp=sharing" class="btn btn-primary but" role="button">Download</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card h-100 text-bg-dark logo mb-2">
-          <div class="inner">
-            <img src="assets/img/project/project-add.jpg" class="card-img-top" alt="..."">
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Minecraft Addon</h5>
-            <hr>
-            <p class="card-text">Simple Minecraft items addon</p>
-            <a href="https://github.com/FinncchUnion/addon_advance_gear" class="btn btn-primary but" role="button">Download</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card h-100 text-bg-dark logo shadow mb-2">
-          <div class="card-body align-items-center">
-            <h5 class="card-title">See More!</h5>
-            <p class="card-text">See more my project</p>
-            <a href="https://github.com/FinncchUnion/" class="btn btn-primary but" role="button">See More</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container-fluid mt-5 mb-5">
-    <div class="row row-cols-1 row-cols-md-4 g-4">
-
-      
-
-    </div>
-  </div>
-
-    <!--Layout 1 akhir-->
+    </section>
+    
+    <!--Layout 3 akhir-->
 
       
         <!--Layout 4 bagian contact -->
-        <div class="container">
-          <div class="container text-light logo my-5 " id="contact">
-          <div class="p-3">
-            <h1 class="text-md-start">Contact Me</h1>
-            <p class="mb-3">send email to me directly</p>
-            <div class="mb-3">
-              <label class="form-label">Name</label>
-              <input type="text" class="form-control bord" id="fullName" placeholder="Enter your name" oninput="hideSubmit()" minlength="4" maxlength="10" required>
+        <section id="contact" data-aos="fade-up">
+          <div class="container">
+            <div class="container text-light logo my-5 bg-dark">
+              <div class="p-3">
+                <h1 class="text-md-start">Contact Me</h1>
+                <p class="mb-3">send email to me directly</p>
+                <div class="mb-3">
+                  <label class="form-label">Name</label>
+                  <input type="text" class="form-control bord" id="fullName" placeholder="Enter your name" oninput="hideSubmit()" minlength="4" maxlength="10" required>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Email</label>
+                  <input type="email" class="form-control bord" id="email_id" placeholder="Enter your email" autocomplete="address-level1" minlength="4" maxlength="25" oninput="hideSubmit()" required>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Message</label>
+                  <textarea class="form-control bord" id="message" placeholder="Enter your message" rows="3" oninput="hideSubmit()" minlength="10" maxlength="99" required></textarea>
+                </div>
+                <button class="btn btn-primary but" id="sendButton" onclick="SendMail(); clear()">Submit</button>
+              </div>
             </div>
-            <div class="mb-3">
-              <label class="form-label">Email</label>
-              <input type="email" class="form-control bord" id="email_id" placeholder="Enter your email" autocomplete="address-level1" minlength="4" maxlength="25" oninput="hideSubmit()" required>
-            </div>
-            <div class="mb-3">
-              <label class="form-label">Message</label>
-              <textarea class="form-control bord" id="message" placeholder="Enter your message" rows="3" oninput="hideSubmit()" minlength="10" maxlength="99" required></textarea>
-            </div>
-            <button class="btn btn-primary but" id="sendButton" onclick="SendMail(); clear()">Submit</button>
           </div>
-        </div>
-        </div>
+        </section>
         
-      <!--Layout 1 akhir-->
+        
+      <!--Layout 4 akhir-->
+
+      <div class="container mb-5">
+        <figure class="text-center">
+          <blockquote class="blockquote text-light">
+            <p>Make improvements, not excuses. Seek respect, not attention.</p>
+          </blockquote>
+          <figcaption class="blockquote-footer">
+            Roy T. Bennett <cite title="Source Title">The Light in the Heart</cite>
+          </figcaption>
+        </figure>
+      </div>
 
       <!-- bagian footer -->
       <footer>
@@ -370,6 +389,7 @@
               <div class="col-md-6 text-light mb-5">
                 <h2 class="">Irfan na.</h2>
                 <p>Made with love, powered by bootstrap 5</p>
+                <p>not a developer, not an engineer, but just a normal person</p>
               </div>
 
               <div class="col-md-6 d-flex justify-content-md-end text-light mb-5">
@@ -399,7 +419,7 @@
             <hr class="text-light">
             <div class="text-center text-light">
               &copy; Copyright 2022. Made by
-            <a rel="noreferrer" target="_blank" href="https://github.com/FinncchUnion">Irfan NA.</a>
+            <a rel="noreferrer" target="_blank" href="https://github.com/FinncchUnion" class="text-decoration-none">Irfan NA.</a>
             </div>
           </div>
         </div>
@@ -426,6 +446,11 @@
         backSpeed: 150,
         loop: true
       })
+    </script>
+    <!-- scroll animation-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
 </body>
 </html>
